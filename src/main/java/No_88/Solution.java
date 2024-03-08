@@ -8,7 +8,7 @@ package No_88;
  * @Time: 16:07
  * @Description:合并两个有序数组
  */
-public class Solution {
+class Solution {
     public void merge(int[] nums1, int m, int[] nums2, int n) { //结果合并至nums1里
         int i = 0, j = 0, k = 0;
         int ans[] = new int[nums1.length];
