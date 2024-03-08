@@ -8,9 +8,9 @@ import java.util.HashMap;
  * @ClassName: Solution
  * @Date: 2024/3/8
  * @Time: 15:42
- * @Description:添加自定义描述
+ * @Description:两数之和
  */
-public class Solution {
+class Solution {
     public int[] twoSum(int[] nums, int target) {
         int result[] = new int[2];
         HashMap<Integer, Integer> m = new HashMap<Integer, Integer>();
