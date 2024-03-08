@@ -23,6 +23,5 @@ public class LeetCode_88 {
             }
         }
         System.out.println("]");
-        System.out.println();
     }
 }
