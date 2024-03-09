@@ -16,13 +16,13 @@ class Solution {
             return false;
         }
 
-        ListNode slow = head;//慢指针
+        ListNode slower = head;//慢指针
         ListNode faster = head;//快指针
 
         while (faster.next != null && faster.next.next != null) {
-            slow = slow.next;
+            slower = slower.next;
             faster = faster.next.next;
-            if (faster == slow) {
+            if (faster == slower) {
                 return true;
             }
         }
