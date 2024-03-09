@@ -1,5 +1,7 @@
 package No_21;
 
+import common.ListNode;
+
 /**
  * @Created with Intellij IDEA Ultimate 2022.02.03 正式旗舰版
  * @Author: 2113042621-冯佳和

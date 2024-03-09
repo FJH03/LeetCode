@@ -1,5 +1,7 @@
 package No_21;
 
+import common.ListNode;
+
 import java.util.LinkedList;
 
 /**
@@ -18,23 +20,6 @@ public class LeetCode_21_2 {
         ListNode l2 = new ListNode(1, new ListNode(3, new ListNode(4)));
         ListNode p = solution_2.mergeTwoLists(l1, l2);
 
-        ListNode t = p;
-
-        LinkedList<Integer> l = new LinkedList<>();
-        int cnt = 0;
-        System.out.print("[");
-        while (t != null) {
-            l.add(t.val);
-            t = t.next;
-        }
-
-        for (int i = 0; i < l.size(); i++) {
-            System.out.print(l.get(i));
-            if (++cnt < l.size()) {
-                System.out.print(", ");
-            }
-        }
-
-        System.out.print("]");
+        p.showValue(p);
     }
 }
