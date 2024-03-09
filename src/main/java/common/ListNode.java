@@ -37,4 +37,26 @@ public class ListNode {
 
         System.out.print("]");
     }
+
+    public void connectTailToPos(ListNode listNode, int pos) {
+        if (listNode == null || pos < 0) {
+            return;
+        }
+
+        ListNode l = listNode;
+
+        while (l.next != null && l.next != listNode) {
+            l = l.next;
+        }
+
+        ListNode current = listNode;
+        for (int i = 0; i < pos; i++) {
+            if (current.next == null || current.next == listNode) {
+                return;
+            }
+            current = current.next;
+        }
+
+        l.next = current;
+    }
 }
