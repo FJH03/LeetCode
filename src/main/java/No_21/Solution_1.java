@@ -8,7 +8,7 @@ package No_21;
  * @Time: 10:18
  * @Description:合并两个有序链表(双指针)
  */
-public class Solution_1 {
+class Solution_1 {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if (list1 == null) {
             return list2;
