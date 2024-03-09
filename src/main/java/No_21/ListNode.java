@@ -6,7 +6,7 @@ package No_21;
  * @ClassName: ListNode
  * @Date: 2024/3/9
  * @Time: 9:33
- * @Description:链表的定义
+ * @Description:单链表的定义
  */
 public class ListNode {
     Integer val = null;
