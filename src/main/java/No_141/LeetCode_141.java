@@ -17,9 +17,9 @@ public class LeetCode_141 {
         int pos = 1;
 //        ListNode ls = new ListNode(1, new ListNode(2));
 //        int pos = 0;
-        ls.showValue(ls);
+//        ls.showValue(ls);
         ls.connectTailToPos(ls, pos);
 
-        System.out.println(solution.hasCycle(ls));
+        System.out.println("[" + solution.hasCycle(ls) + "]");
     }
 }

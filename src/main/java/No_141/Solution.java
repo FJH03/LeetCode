@@ -16,8 +16,8 @@ class Solution {
             return false;
         }
 
-        ListNode slow = head;
-        ListNode faster = head;
+        ListNode slow = head;//慢指针
+        ListNode faster = head;//快指针
 
         while (faster.next != null && faster.next.next != null) {
             slow = slow.next;
