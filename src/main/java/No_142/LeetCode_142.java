@@ -14,10 +14,8 @@ public class LeetCode_142 {
     public static void main(String[] args) {
         ListNode ls = new ListNode(3, new ListNode(2, new ListNode(0, new ListNode(-4))));
         int pos = 1;
-        ls.showValue(ls);
         ls.connectTailToPos(ls, pos);
         ListNode rs = new Solution().detectCycle(ls);
-
+        System.out.println(rs);
     }
-
 }
