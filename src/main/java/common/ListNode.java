@@ -17,6 +17,10 @@ public class ListNode {
     public ListNode(int val) { this.val = val; }
     public ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 
+    /**
+     * 打印单链表
+     * @param listNode
+     */
     public void showValue(ListNode listNode) {
         ListNode t = listNode;
 
@@ -38,6 +42,11 @@ public class ListNode {
         System.out.print("]");
     }
 
+    /**
+     * 构造环形链表
+     * @param listNode
+     * @param pos
+     */
     public void connectTailToPos(ListNode listNode, int pos) {
         if (listNode == null || pos < 0) {
             return;
