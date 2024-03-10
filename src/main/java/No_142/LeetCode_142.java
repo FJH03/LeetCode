@@ -1,24 +1,23 @@
-package No_141;
+package No_142;
 
 import common.ListNode;
 
 /**
  * @Created with Intellij IDEA Ultimate 2022.02.03 正式旗舰版
  * @Author: 2113042621-冯佳和
- * @ClassName: LeetCode_141
- * @Date: 2024/3/9
- * @Time: 18:27
- * @Description:环形链表
+ * @ClassName: LeetCode_142
+ * @Date: 2024/3/10
+ * @Time: 10:24
+ * @Description:环形链表II
  */
-public class LeetCode_141 {
+public class LeetCode_142 {
     public static void main(String[] args) {
         ListNode ls = new ListNode(3, new ListNode(2, new ListNode(0, new ListNode(-4))));
         int pos = 1;
-//        ListNode ls = new ListNode(1, new ListNode(2));
-//        int pos = 0;
-//        ls.showValue(ls);
+        ls.showValue(ls);
         ls.connectTailToPos(ls, pos);
+        ListNode rs = new Solution().detectCycle(ls);
 
-        System.out.println("[" + new Solution().hasCycle(ls) + "]");
     }
+
 }

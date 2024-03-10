@@ -12,13 +12,10 @@ import common.ListNode;
  */
 public class LeetCode_83 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-
         ListNode listNode = new ListNode(1, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(3, new ListNode(3))))));
 
 //        ListNode listNode = new ListNode();
-        ListNode result = solution.deleteDuplicates(listNode);
-
+        ListNode result = new Solution().deleteDuplicates(listNode);
 
         result.showValue(result);
     }

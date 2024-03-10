@@ -12,11 +12,10 @@ import common.ListNode;
  */
 public class LeetCode_21_2 {
     public static void main(String[] args) {
-        Solution_2 solution_2 = new Solution_2();
         ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(4)));
 
         ListNode l2 = new ListNode(1, new ListNode(3, new ListNode(4)));
-        ListNode p = solution_2.mergeTwoLists(l1, l2);
+        ListNode p = new Solution_2().mergeTwoLists(l1, l2);
 
         p.showValue(p);
     }
