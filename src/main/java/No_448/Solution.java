@@ -5,12 +5,12 @@ import java.util.*;
 /**
  * @Created with Intellij IDEA Ultimate 2022.02.03 正式旗舰版
  * @Author: 2113042621-冯佳和
- * @ClassName: Solution_1
+ * @ClassName: Solution
  * @Date: 2024/3/8
  * @Time: 17:15
  * @Description:找出所有数组中消失的数字
  */
-class Solution_1 {
+class Solution {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         List<Integer> L = new ArrayList<>();
         Set<Integer> set = new HashSet<>();

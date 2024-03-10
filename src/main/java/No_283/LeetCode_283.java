@@ -10,10 +10,8 @@ package No_283;
  */
 public class LeetCode_283 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-
         int nums[] = {0, 1, 0, 3, 12};
-        solution.moveZeroes(nums);
+        new Solution().moveZeroes(nums);
 
         System.out.print("[");
         int cnt = 0;
