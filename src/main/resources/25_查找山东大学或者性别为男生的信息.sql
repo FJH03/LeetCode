@@ -41,6 +41,7 @@ select device_id,
 from user_profile
 where university in ('山东大学')
 
+#要用union all，union会去重
 union all
 
 select device_id,
