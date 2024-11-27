@@ -6,7 +6,7 @@ package 栈与队列专题.No_769_最多能完成排序的块;
  * @ClassName: LeetCode_769
  * @Date: 2024/11/27
  * @Time: 17:23
- * @Description:添加自定义描述
+ * @Description:最多能完成排序的块
  */
 public class LeetCode_769 {
     public static void main(String[] args) {
