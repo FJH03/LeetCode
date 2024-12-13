@@ -13,7 +13,7 @@ import common.ListNode;
 class Solution {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
-            return head;
+            return null;
         }
 
         ListNode p = head;
